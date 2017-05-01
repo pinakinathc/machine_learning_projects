@@ -20,7 +20,7 @@ W = zeros(L_out, 1 + L_in);
 %
 
 
-
+W = rand(L_out,L_in+1)*2*0.12 - 0.12;
 
 
 

@@ -126,7 +126,7 @@ pause;
 %  implementing a function to initialize the weights of the neural network
 %  (randInitializeWeights.m)
 
-fprintf('\nInitializing Neural Network Parameters ...\n')
+fprintf('\nInitializing Neural Network Parameters ...\n');
 
 initial_Theta1 = randInitializeWeights(input_layer_size, hidden_layer_size);
 initial_Theta2 = randInitializeWeights(hidden_layer_size, num_labels);
@@ -232,3 +232,27 @@ pred = predict(Theta1, Theta2, X);
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);
 
 
+%shows various values....my own code
+rp = randperm(m);
+
+for i = 1:m
+if (pred(i) != y(i))
+        fprintf ("\nDsplaying Example Image\n");
+        displayData(X(i,:));
+        prediction = predict(Theta1,Theta2,X(i,:));
+        fprintf("\nNeural Network Prediction: %d (digit %d)\n",pred(i), y(i));
+        s = input('Pause - press enter to continue');
+       end
+%  Display 
+%    fprintf('\nDisplaying Example Image\n');
+%    displayData(X(rp(i), :));
+
+%    pred = predict(Theta1, Theta2, X(rp(i),:));
+%    fprintf('\nNeural Network Prediction: %d (digit %d)\n', pred, mod(pred, 10));
+    
+    % Pause with quit option
+%    s = input('Paused - press enter to continue, q to exit:','s');
+%    if s == 'q'
+%      break
+%    end
+end
