@@ -6,3 +6,7 @@ This repository contains mini projects on:
 5. Error Analysis and Learning Curve
 6. SVM (linear and Gaussian Kernel)
 7. Spam Classifier
+8. k-means
+9. Principal Component Analysis
+10. Image and Data compression
+11. application of PCA to dimension reduction to help to visualize data and make supervised learning algorithm run faster.
