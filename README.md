@@ -14,3 +14,4 @@ This repository contains mini projects on:
 13. Anomaly Detection along with Gaussian Distribution
 14. Multivariate Gaussian Distribution
 15. Recommender Systems
+16. Collaborative Filtering
