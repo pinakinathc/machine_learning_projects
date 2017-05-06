@@ -11,3 +11,6 @@ This repository contains mini projects on:
 10. Principal Component Analysis
 11. Image and Data compression
 12. application of PCA to dimension reduction to help to visualize data and make supervised learning algorithm run faster.
+13. Anomaly Detection along with Gaussian Distribution
+14. Multivariate Gaussian Distribution
+15. Recommender Systems
