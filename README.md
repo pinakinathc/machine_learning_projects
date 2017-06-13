@@ -1,3 +1,6 @@
+Recognition of handwritten digits and also data compression projects done.
+(*Note: digit recognition project has some modification compared to the orginal course project code in order to improve performance)
+Concepts:
 This repository contains mini projects on:
 1. Linear Regression
 2. Logistic Regression
